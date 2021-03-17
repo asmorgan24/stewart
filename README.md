@@ -62,7 +62,7 @@ NOTE: Directions are similar to video game controls. To exit the keyboard termin
 | D   | -Roll      | Decreases roll of platform by a single step                 |
 | Q   | +Yaw       | Increases yaw of platform by a single step                  |
 | E   | -Yaw       | Decreases yaw of platform by a single step                  |
-| ~   | ESCAPE    | IMPORTANT: Escapes the keyboard control in termal           |
+| ~   | ESCAPE     | IMPORTANT: Escapes the keyboard control in terminal         |
 </center>
 
 
