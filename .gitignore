@@ -1,1 +1,6 @@
 /sdf/stewart/*.sdf
+
+*.pyc
+*.sdf
+
+/plugin/build
