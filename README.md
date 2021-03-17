@@ -11,8 +11,8 @@ The code was written for and tested in Ubuntu 16.04 (ROS Kinetic). To get starte
 
 ```
 cd ~/your_catkin_ws_src_path/  
-git clone https://github.com/daniel-s-ingram/stewart.git  
-catkin build stewart
+git clone https://github.com/asmorgan24/stewart.git  
+catkin_make stewart
 source ~/your_catkin_ws/devel/setup.bash
 ```
 
@@ -40,16 +40,16 @@ roslaunch stewart stewart_gazebo.launch
 ```
 
 ## Control
-This should launch the gazebo simulation world with the stewart platform in the center. Keyboard control for the platform is currently only implemented for roll, pitch, and yaw of the platform (not translation). The control is as follows.
+This should launch the gazebo simulation world with the stewart platform in the center. Keyboard control for the platform is currently only implemented for roll, pitch, and yaw of the platform (not translation, but can be easily implemented). The control is as follows.
 
-Now launch the control package:
+Now launch the control package in a NEW terminal:
 
 ```
 roslaunch stewart stewart_control.launch
 ```
 
 <center>
-NOTE: Directions are similar to video game controls
+NOTE: Directions are similar to video game controls. To exit the keyboard terminal control hit ```~``` on the keyboard.
   
   
   
