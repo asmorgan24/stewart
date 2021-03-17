@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="stewart" type="stewart_ik.py" name="stewart_ik" output="screen"> </node>
+  <node pkg="stewart" type="keyboard_input_py_node.py" name="keyboard_input" output="screen"> </node>
+</launch>
